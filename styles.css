@@ -1,17 +1,17 @@
 /* Reset margin top for elements */
-h1:not(.CommentTitle), h2, h3, h4, h5, h6,
-p, ol, ul, pre{
+div.EntryText h1,div.EntryText h2,div.EntryText h3,div.EntryText h4,div.EntryText h5,div.EntryText h6,
+div.EntryText p,div.EntryText ol,div.EntryText ul,div.EntryText pre {
 	margin-top: 0;
 }
 
-h1:not(.CommentTitle), h2, h3, h4, h5, h6 {
+div.EntryText h1,div.EntryText h2,div.EntryText h3,div.EntryText h4,div.EntryText h5,div.EntryText h6 {
 	font-weight: 600;
 	margin-top: 24px;
 	margin-bottom: 16px;
 	line-height: 1.25;
 }
 
-#code-csp-warning {
+#code-csp-warning div.EntryText{
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -117,15 +117,15 @@ textarea:focus {
 	outline-offset: -1px;
 }
 
-p {
+div.EntryText p {
 	margin-bottom: 16px;
 }
 
-li p {
+div.EntryText li p {
 	margin-bottom: 0.7em;
 }
 
-ul,
+div.EntryText ul,
 ol {
 	margin-bottom: 0.7em;
 }
@@ -136,7 +136,7 @@ hr {
 	border-bottom: 1px solid;
 }
 
-h1 :not(.CommentTitle){
+div.EntryText h1 {
 	font-size: 2em;
 	margin-top: 0;
 	padding-bottom: 0.3em;
@@ -144,30 +144,30 @@ h1 :not(.CommentTitle){
 	border-bottom-style: solid;
 }
 
-h2 {
+div.EntryText h2 {
 	font-size: 1.5em;
 	padding-bottom: 0.3em;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 }
 
-h3 :not(.CommentTitle){
+div.EntryText h3 {
 	font-size: 1.25em;
 }
 
-h4 {
+div.EntryText h4 {
 	font-size: 1em;
 }
 
-h5 {
+div.EntryText h5 {
 	font-size: 0.875em;
 }
 
-h6 {
+div.EntryText h6 {
 	font-size: 0.85em;
 }
 
-table {
+div.EntryText table {
 	border-collapse: collapse;
 	margin-bottom: 0.7em;
 }
