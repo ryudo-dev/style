@@ -1,10 +1,10 @@
 /* Reset margin top for elements */
-div.entryTextMain h1, h2, h3, h4, h5, h6,
-p, ol, ul, pre {
+h1, h2, h3, h4, h5, h6,
+p, ol, ul, pre :not(.CommentTitle){
 	margin-top: 0;
 }
 
-div.entryTextMain h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 :not(.CommentTitle){
 	font-weight: 600;
 	margin-top: 24px;
 	margin-bottom: 16px;
@@ -136,7 +136,7 @@ hr {
 	border-bottom: 1px solid;
 }
 
-h1 {
+h1 :not(.CommentTitle){
 	font-size: 2em;
 	margin-top: 0;
 	padding-bottom: 0.3em;
@@ -151,7 +151,9 @@ h2 {
 	border-bottom-style: solid;
 }
 
-
+h3 :not(.CommentTitle){
+	font-size: 1.25em;
+}
 
 h4 {
 	font-size: 1em;
